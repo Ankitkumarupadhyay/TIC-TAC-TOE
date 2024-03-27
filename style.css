@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.71); */
+    background-color: rgba(14, 45, 79, 0.653);
+}
+#forms{
+    /* border: 2px solid red; */
+    /* background-color: rgba(96, 92, 92, 0.822); */
+    background-color: #a4b2b0;
+    overflow: hidden;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5rem;
+    box-shadow: 1rem 1rem 3rem black,
+   inset .5rem .5rem 2rem ;
+   border-radius: 5rem;
+  
+}
+#forms img{
+    position: absolute;
+    width: 100%;
+    /* opacity: .5; */
+    border-radius: 5rem;
+    z-index: 1;
+}
+#forms input{
+width: 25rem;
+padding: 1rem 2rem;
+font-size: 2rem;
+text-transform: uppercase;
+background-color: transparent;
+border: transparent;
+border: 0rem;
+border-bottom: .2rem solid black;
+outline:none;
+z-index: 10;
+}
+#forms label{
+    position: relative;
+    right: 8rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    /* border: 2px solid red; */
+    margin: 1rem ;
+    /* color: white; */
+    z-index: 2;
+}
+#submitNow{
+    position: absolute;
+    bottom: 1rem;
+    font-size: 2rem;
+    padding: 0.2rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+z-index: 3;
+}
+#container{
+    /* border: 5px solid red; */
+    text-align: center;
+    height: 90vh;
+    width: 70vmin;
+    display: none;
+}
+#container h1{
+    font-size: 4rem;
+    color: aqua;
+}
+.game{
+   height: 60vh;
+   width: 70vmin;
+   /* border: 2px solid black; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: .5rem;
+
+}
+
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    cursor: pointer;
+    background-color:rgba(164, 118, 118, 0.858);
+    /* background-color: white; */
+    color: black;
+    border-radius: 1rem;
+    box-shadow: .2rem .2rem .1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    overflow: hidden;
+   
+}
+box:disabled{
+    opacity: 1;
+}
+
+#resetNow{
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+#result {
+    /* border: 2px solid red; */
+height: 85vh;
+width: 70vw;
+position: absolute;
+top: 5rem;
+display: none;
+}
+#result #image img{
+    width: 100%;
+    height: 50vh;
+    object-fit: contain;
+    
+}
+#result #winner {
+    /* border: 2px solid green; */
+    font-size: 4rem;
+    color: aqua;
+    width: 100%;
+    text-align: center;
+text-transform: uppercase;
+padding: 1rem;
+  
+ } 
+ .ng{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+ }
+ #newGame{
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    border-radius: 3rem;
+   
+    cursor: pointer;
+   
+  border-style: none;
+ }
+ #playAgain{
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    border-radius: 3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    
+  border-style: none;
+ }
+
