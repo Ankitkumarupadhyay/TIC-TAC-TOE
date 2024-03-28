@@ -179,6 +179,9 @@ padding: 1rem;
         font-size: 3rem;
         color: aqua;
     }
+    .game{
+        height: 50vh;
+    }
     .box{
         height: 5rem;
         width: 5rem;
