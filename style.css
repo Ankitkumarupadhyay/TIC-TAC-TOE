@@ -250,4 +250,7 @@ padding: 1rem;
         height: 4rem;
         width: 4rem;
     }
+    .game{
+        height: 40vh;
+    }
 }
