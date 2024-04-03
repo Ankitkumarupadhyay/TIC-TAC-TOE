@@ -188,10 +188,10 @@ padding: 1rem;
     
     #container h1{
         font-size: 3rem;
-        color: aqua;
+        /* color: aqua; */
     }
     .game{
-        height: 50vh;
+        height: 40vh;
     }
     .box{
         height: 5rem;
@@ -255,13 +255,13 @@ padding: 1rem;
      }
     #container h1{
         font-size: 2rem;
-        color: aqua;
+        /* color: aqua; */
     }
     .box{
         height: 4rem;
         width: 4rem;
     }
     .game{
-        height: 40vh;
+        height: 35vh;
     }
 }
