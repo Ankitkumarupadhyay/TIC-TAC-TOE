@@ -45,12 +45,12 @@ submit.addEventListener("click",()=>{
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if(turn0){
-            box.innerText=nPlayer1.value;
+            box.innerText="O";
             turn0=false;
             
         }
         else{
-            box.innerText=nPlayer2.value;
+            box.innerText="X";
             turn0=true;
         }
     box.disabled=true;

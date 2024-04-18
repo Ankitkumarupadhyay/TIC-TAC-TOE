@@ -99,10 +99,10 @@ font-weight: 600;
     cursor: pointer;
    background: linear-gradient(90deg,#430A5D,#FF204E);
     /* background-color: white; */
-    color: black;
+    color: white;
     border-radius: 1rem;
     box-shadow: .2rem .2rem .1rem;
-    font-size: 2rem;
+    font-size: 5rem;
     text-transform: uppercase;
     overflow: hidden;
    
