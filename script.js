@@ -77,7 +77,13 @@ const checkWinner=()=>{
             form.style.display="none";
             container.style.display="none";
             result.style.display="block";
-            winner.innerText=`Winner is "${pos1}"`;
+            if(pos1 =="O"){
+                winner.innerText=`Winner is "${nPlayer1.value}"`;
+            }
+            else{
+                winner.innerText=`Winner is "${nPlayer2.value}"`;
+            }
+            
         }
        }
     }

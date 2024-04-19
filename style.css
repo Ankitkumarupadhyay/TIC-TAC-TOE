@@ -101,7 +101,7 @@ font-weight: 600;
     /* background-color: white; */
     color: white;
     border-radius: 1rem;
-    box-shadow: .2rem .2rem .1rem;
+    box-shadow: .2rem .2rem .5rem ;
     font-size: 5rem;
     text-transform: uppercase;
     overflow: hidden;
